@@ -14,6 +14,8 @@ public class ApprovalDO implements java.io.Serializable
    private java.lang.String reason;
    private java.lang.String appPriority;
 
+   private java.lang.Boolean approved;
+
    public ApprovalDO()
    {
    }
@@ -58,13 +60,25 @@ public class ApprovalDO implements java.io.Serializable
       this.appPriority = appPriority;
    }
 
+   public java.lang.Boolean getApproved()
+   {
+      return this.approved;
+   }
+
+   public void setApproved(java.lang.Boolean approved)
+   {
+      this.approved = approved;
+   }
+
    public ApprovalDO(java.lang.String name, java.lang.String amount,
-         java.lang.String reason, java.lang.String appPriority)
+         java.lang.String reason, java.lang.String appPriority,
+         java.lang.Boolean approved)
    {
       this.name = name;
       this.amount = amount;
       this.reason = reason;
       this.appPriority = appPriority;
+      this.approved = approved;
    }
 
 }
