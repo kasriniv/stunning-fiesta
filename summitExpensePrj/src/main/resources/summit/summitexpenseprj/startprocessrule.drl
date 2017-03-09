@@ -8,7 +8,7 @@ System.out.println("hi from the rule..enhance later to maybe call a process");
 end
 
 //from row number: 1
-rule "Row 1 servicerecos"
+rule "R1servicerecos"
 	dialect "mvel"
 	when
 		cdo : CustomerProfileDO( rating == "gold" , recentinterestin == "homeloan" , trigger == "checkorder" , currentpromotion in ( "homeloan", "autoloan" ) )
@@ -17,7 +17,7 @@ rule "Row 1 servicerecos"
 end
 
 //from row number: 2
-rule "Row 2 servicerecos"
+rule "R2servicerecos"
 	dialect "mvel"
 	when
 		cdo : CustomerProfileDO( rating == "silver" , recentinterestin == "homeloan" , trigger == "checkorder" , currentpromotion in ( "homeloan", "autoloan" ) )
@@ -26,7 +26,7 @@ rule "Row 2 servicerecos"
 end
 
 //from row number: 3
-rule "Row 3 servicerecos"
+rule "R3servicerecos"
 	dialect "mvel"
 	when
 		cdo : CustomerProfileDO( rating == "bronze" , recentinterestin == "homeloan" , trigger == "accountopen" , currentpromotion in ( "homeloan", "portfolio" ) )
