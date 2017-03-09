@@ -144,7 +144,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>gold</valueString>
+        <valueString>gold1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -182,7 +182,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>silver</valueString>
+        <valueString>silver1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -220,7 +220,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>bronze</valueString>
+        <valueString>bronze1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
