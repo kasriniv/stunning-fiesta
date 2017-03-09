@@ -1,2 +1,6 @@
 package summit.summitexpenseprj;
-
+rule startprocessrule
+when summit.summitexpenseprj.CustomerProfileDO( )
+then
+System.out.println("hi from the rule");
+end
