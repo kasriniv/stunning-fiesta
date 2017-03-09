@@ -164,7 +164,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>homeloan</valueString>
+        <valueString>homeloanDT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -202,7 +202,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>autoloan</valueString>
+        <valueString>autoloanDT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -240,7 +240,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>portfolio management</valueString>
+        <valueString>portfolio managementDT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
