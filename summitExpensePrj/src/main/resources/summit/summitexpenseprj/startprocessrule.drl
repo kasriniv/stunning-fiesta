@@ -1,11 +1,17 @@
 package summit.summitexpenseprj;
 
+query "get reco"()
+    greeting : CustomerProfileDO()
+end
+
 
 rule startprocessrule
 when summit.summitexpenseprj.CustomerProfileDO( )
 then
 System.out.println("hi from the rule..enhance later to maybe call a process");
 end
+
+
 
 //from row number: 1
 rule "R1servicerecos"
