@@ -1,13 +1,49 @@
 <scenario>
-  <name>testservicereco</name>
+  <name>testservicereco.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>CustomerProfileDO</type>
+      <fieldData>
+        <field-data>
+          <name>rating</name>
+          <value></value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>recentinterestin</name>
+          <value></value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>trigger</name>
+        </field-data>
+      </fieldData>
+      <name>cdo</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>servicereco</fieldName>
+          <expected>whatever</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>cdo</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>summit.summitexpenseprj</packageName>
   <imports>
     <imports/>
   </imports>
-  <ksessions/>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
 </scenario>
