@@ -30,20 +30,27 @@
       <name>cdo</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>20</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>servicereco</fieldName>
           <expected>whatever</expected>
+          <actualResult>homeloan</actualResult>
+          <successResult>false</successResult>
+          <explanation>[cdo] field [servicereco] was [homeloan] expected [whatever].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>cdo</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-03-09 17:23:38.511 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>summit.summitexpenseprj</packageName>
