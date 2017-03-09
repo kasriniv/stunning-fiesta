@@ -8,16 +8,23 @@
       <fieldData>
         <field-data>
           <name>rating</name>
-          <value></value>
+          <value>gold</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>recentinterestin</name>
-          <value></value>
+          <value>homeloan</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>trigger</name>
+          <value>checkorder</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>currentpromotion</name>
+          <value>homeloan</value>
+          <nature>4</nature>
         </field-data>
       </fieldData>
       <name>cdo</name>
