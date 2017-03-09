@@ -15,6 +15,8 @@ public class CustomerProfileDO implements java.io.Serializable
    private java.lang.String currentpromotion;
    private java.lang.String trigger;
 
+   private java.lang.String servicereco;
+
    public CustomerProfileDO()
    {
    }
@@ -69,15 +71,26 @@ public class CustomerProfileDO implements java.io.Serializable
       this.trigger = trigger;
    }
 
+   public java.lang.String getServicereco()
+   {
+      return this.servicereco;
+   }
+
+   public void setServicereco(java.lang.String servicereco)
+   {
+      this.servicereco = servicereco;
+   }
+
    public CustomerProfileDO(java.lang.String id, java.lang.String rating,
-         java.lang.String recentinterestin,
-         java.lang.String currentpromotion, java.lang.String trigger)
+         java.lang.String recentinterestin, java.lang.String currentpromotion,
+         java.lang.String trigger, java.lang.String servicereco)
    {
       this.id = id;
       this.rating = rating;
       this.recentinterestin = recentinterestin;
       this.currentpromotion = currentpromotion;
       this.trigger = trigger;
+      this.servicereco = servicereco;
    }
 
 }
