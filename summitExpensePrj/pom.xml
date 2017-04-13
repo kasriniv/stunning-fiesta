@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Summit</groupId>
   <artifactId>summitExpensePrj</artifactId>
-  <version>2.1</version>
+  <version>33</version>
   <packaging>kjar</packaging>
   <name>summitExpensePrj</name>
   <repositories>
